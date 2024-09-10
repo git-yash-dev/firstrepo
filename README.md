@@ -1,4 +1,4 @@
 # firstrepo
-this is my first git repo 
+<b> This repo is for storing all of my coding files when i am learning.</b>
 <br>
-author-yash
+Author yash
