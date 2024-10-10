@@ -4,7 +4,7 @@ html,body{
     width:100% ;
     height: 100%;
 }
-h2{
+h1{
     margin: 0%;
     width:400px;
     color: rgb(69, 14, 152);
@@ -12,7 +12,7 @@ h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;background: #fff;
 }
 body{
-    background: #d6ebad;
+    background: #d4eda1;
 }
 p{
     font-style: italic;

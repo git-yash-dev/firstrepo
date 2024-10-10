@@ -16,6 +16,5 @@ function secondlargest(list){
     }
     return sec_longest;
 }
-
 let numbers=[3,5,7,2,8,6]
 console.log(secondlargest(numbers))
