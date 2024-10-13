@@ -1,0 +1,1 @@
+let arr1 = Array.from({ length: 10000 }, (_, i) => i * 2)
