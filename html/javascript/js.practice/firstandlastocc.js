@@ -7,7 +7,7 @@ function checkocc(arr,target){
         let mid =Math.floor((left +right)/2);
         if (arr[mid] === target){
             first = mid;
-            right = mid -1; 
+            right = mid -1;
         }
         else if (arr[mid]<target){
             left = mid +1;
@@ -31,4 +31,4 @@ function checkocc(arr,target){
     console.log("last occurance"+ last);
 }
 let arr=[2, 4, 10, 10, 10,10,10, 18, 20];
-checkocc(arr,10);
+checkocc(arr,10); 
