@@ -1,9 +1,13 @@
-//1, 3, 20, 4, 1, 0
 function peak(arr){
     let left =0;
-    let right =0;
-    while (left <=right){
+    let right =arr.length;
+    while (lft <=right){
         let mid =Math.floor((left +right )/2);
-        
+        if (mid==arr[mid]){
+            left =mid +1;
+        }
+        else {right =mid -1;
+            return mid;
+        }
     }
 }
