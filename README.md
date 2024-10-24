@@ -1,4 +1,3 @@
-# firstrepo
-this is my first git repo 
-<br>
-author-yash
+#firstrepo
+this is a repo i made for pushing my code while leaarning any code language
+
