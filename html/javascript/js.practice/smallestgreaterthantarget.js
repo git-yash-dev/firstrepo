@@ -4,7 +4,7 @@ function smalltarget(arr,target){
     let smalar=-1;
     while (left<=right){
         let mid = Math.floor((left+right)/2);
-        if (arr[mid]==target){
+        if (arr[mid]===target){
             return arr[mid];
         }
         else if (arr[mid]<target){
@@ -12,8 +12,9 @@ function smalltarget(arr,target){
         }
         else{
             smalar=arr[mid];
-            arr[mid] >target;}
+            right=mid +1;}
     }
+    return smalar;
 }
 let arr=[2,5,8,12,15];
 console.log(smalltarget(arr,9));
