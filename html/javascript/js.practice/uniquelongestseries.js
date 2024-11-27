@@ -1,23 +1,23 @@
-function uniqq(stri){
-    let diff =stri.split("");
-    let uni =[];
-    let fu=0;
-    for (let i=0;i<=diff.length;i++){
-        let temp=[];
-        for (let f=fu;f<=diff.length;f++){
-            if (!uni.includes(diff[f])){
-                temp.push(diff[f]);
+function uniqqsub(s){
+    let uni=[];
+    let temp=[];
+    let counter=0;
+    while (counter!=s.length){
+        for (let i=counter;i<s.length;i++){
+            if (!temp.includes(s[i])){
+                temp.push(s[i]);
+                counter++;
             }
             else{
-                fu++
+                break;
             }
-            
         }
-        if(temp>uni){
-            uni =temp;
+        if (temp.length>uni.length){
+            uni=temp;
+            temp=[];
         }
     }
     return uni.length;
 }
-let stri="pwkktri";
-console.log(uniqq(stri));
+let str="pwkkdim";
+console.log(uniqqsub(str));
