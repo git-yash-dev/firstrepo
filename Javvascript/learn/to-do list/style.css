@@ -1,0 +1,15 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+    align-items: center;
+    background: linear-gradient(135deg,#153677,#4e085f);
+}
+.todolist{
+    color: red;
+    align-items: center;
+}
+.text{
+    align-self: center;
+    align-content: center;
+}
+
